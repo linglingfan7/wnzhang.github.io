@@ -18,18 +18,16 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
           <h1 id="project_title">Real-Time Bidding based Display Advertising: Mechanisms and Algorithms</h1>
-          <h2 id="project_tagline">An ECIR 2016 Tutorial by Jun Wang, Shuai Yuan, and Weinan Zhang</h2>
+          <h2 id="project_tagline">A CIKM 2016 Tutorial by Weinan Zhang, Jian Xu and Jun Wang</h2>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p>This website is for the ECIR 2016 Tutorial: Real-Time Bidding based Display Advertising: Mechanisms and Algorithms.</p>
+        <p>This website is for the CIKM 2016 Tutorial: Real-Time Bidding based Display Advertising: Mechanisms and Algorithms.</p>
 
-<p>The tutorial has been given by <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/about">Dr. Jun Wang</a>, <a href="http://yuan-shuai.info">Dr. Shuai Yuan</a>, and <a href="http://www0.cs.ucl.ac.uk/staff/Weinan.Zhang">Weinan Zhang</a> in March, 2016 during the <a href="http://ecir2016.dei.unipd.it/">ECIR conference</a> in Padua, Italy.</p>
-
-<p><a href="final-slides.pdf">Download</a> the final slides, or read it on <a href="http://www.slideshare.net/shuaiyuancn/rtbma-ecir-2016-tutorial" target="_blank">Slideshare</a>.</p>
+<p>The tutorial has been given by <a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/about">Dr. Jun Wang</a>, <a href="http://yuan-shuai.info">Dr. Shuai Yuan</a>, and <a href="http://www0.cs.ucl.ac.uk/staff/Weinan.Zhang">Weinan Zhang</a> in Octobor, 2016 during the <a href="http://cikm2016.cs.iupui.edu/">CIKM conference</a> Indianapolis, United States.</p>
 
 <h1>
 	<a id="history" class="anchor" href="#history" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorial history
@@ -37,6 +35,9 @@
 
 
 <ul>
+	<li>
+		<p><a href="http://tutorial.computational-advertising.org">ECIR 2016</a>, given by Dr. Jun Wang, Dr. Shuai Yuan and Weinan Zhang</p>
+	</li>
 	<li>
 		<p><a href="http://tutorial-wsdm-2015.computational-advertising.org">WSDM 2015</a>, given by Dr. Jun Wang, Dr. Shuai Yuan with invited speaker Dr. Kaihua Cui from AppNexus</p>
 	</li>
@@ -60,10 +61,11 @@
 <a id="outline" class="anchor" href="#outline" aria-hidden="true"><span class="octicon octicon-link"></span></a>Outline</h1>
 
 <ul>
-	<li>RTB system</li>
+	<li>RTB ecosystem</li>
 	<li>Auction mechanisms</li>
 	<li>User response prediction</li>
 	<li>Conversion attribution</li>
+	<li>Bid landscape forecasting</li>
 	<li>Learning to bid</li>
 	<li>Data Management Platform techniques</li>
 	<li>Floor price optimisation</li>
@@ -76,17 +78,13 @@
 <h1>
 <a id="speakers" class="anchor" href="#speakers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Speakers</h1>
 
+<img src='images/w.zhang.png' class='speaker_photo' />
+
+<p><a href="http://www0.cs.ucl.ac.uk/staff/Weinan.Zhang">Dr. Weinan Zhang</a> recently received his Ph.D. from University College London and is now an assistant professor in Shanghai Jiao Tong University. His research interests include machine learning, dynamic optimisation and their applications in RTB based display advertising and recommender systems. Particularly, He focuses on the research of optimal DSP bidding strategies for RTB display advertising. He is also interested in deep learning models and has developed several domain-specified DNNs for predicting users' online commercial behaviours. Weinan Zhang has published more than 20 papers in top international conferences including SIGKDD, CIKM, SIGIR, AAAI, RecSys and WI. He also has made publications in well-recognised journals including ACM TIST, IPM, and JMLR. He and Dr. Shuai Yuan won the final session of iPinyou Global Bidding Algorithm Competition in 2013. <br /> <br /> <br /></p>
+
 <img src='http://tutorial-cikm-2013.computational-advertising.org/img/j.wang.jpg' class='speaker_photo' />
 
 <p><a href="http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/about">Dr. Jun Wang</a> is a Reader (Associate Professor) in University College London. He has published over 70 research papers in leading journals and conference proceedings including ACM Trans. on Information Systems, IEEE Trans. on Multimedia, ACM Multimedia System Journal, WWW, CIKM, ACM SIGIR, SIGMM. He received the Best Doctoral Consortium award in ACM SIGIR06 for his work on collaborative filtering, the Best Paper Prize in ECIR09 for his work on applying Modern Portfolio Theory of Finance (Mean-variance Analysis) to document ranking in Information Retrieval, and the Best Paper Prize in ECIR12 for top-k retrieval modelling. He has extensive experiences in giving tutorials on top conferences: his recent tutorials about risk management and portfolio theory of information retrieval were given in CIKM2011 and ECIR2011. </p>
-
-<img src='http://tutorial-cikm-2013.computational-advertising.org/img/s.yuan.jpg' class='speaker_photo' />
-
-<p><a href="http://yuan-shuai.info">Dr. Shuai Yuan</a> recently received his Ph.D. from University College London and is now a Data Scientist at MediaGamma. He has been working on mathematical models of online advertising with a number of companies such as AppNexus, Advance International Media, Bright, Dot.tk, and Miaozhen. He has the background of information retrieval, data mining, machine learning, and economic theories; his research interests on computational advertising have focused on supply side optimisation in RTB, bidding algorithms, and statistical arbitrage. Shuai Yuan has published several papers in top-tier venues including CIKM, SIGKDD, and ADKDD. Among them, he published the first empirical study on RTB auctions. He and his colleagues won the third season of iPinyou Global Bidding Algorithm Competition in 2013, and the Best Paper Award of ADKDD 2014. He also contributes to an open advertising dataset project.</p>
-
-<img src='images/w.zhang.png' class='speaker_photo' />
-
-<p><a href="http://www0.cs.ucl.ac.uk/staff/Weinan.Zhang">Weinan Zhang</a> is completing his Ph.D. in University College London. His research interests include machine learning, dynamic optimisation and their applications in RTB based display advertising and recommender systems. Particularly, He focuses on the research of optimal DSP bidding strategies for RTB display advertising. He is also interested in deep learning models and has developed several domain-specified DNNs for predicting users' online commercial behaviours. Weinan Zhang has published more than 20 papers in top international conferences including SIGKDD, CIKM, SIGIR, RecSys and WI. He also has made publications in well-recognised journals including ACM TIST, IPM, and JMLR. He and Dr. Shuai Yuan won the final session of iPinyou Global Bidding Algorithm Competition in 2013. <br /> <br /> <br /></p>
 
 <hr />
 
@@ -104,7 +102,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Real-Time Bidding based Display Advertising: Mechanisms and Algorithms maintained by <a href="https://github.com/shuaiyuancn">shuaiyuancn</a></p>
+        <p class="copyright">Real-Time Bidding based Display Advertising: Mechanisms and Algorithms maintained by <a href="https://github.com/wnzhang">wnzhang</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
