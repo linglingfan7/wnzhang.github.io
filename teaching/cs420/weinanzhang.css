@@ -44,7 +44,7 @@ TD {
 	PADDING-BOTTOM: 1px; PADDING-TOP: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
 }
 .left {
-	FONT-SIZE: 8px; TEXT-ALIGN: center; WIDTH: 25px; BACKGROUND-COLOR: #e2eff9; 
+	FONT-SIZE: 10px; FONT: Georgia; TEXT-ALIGN: center; WIDTH: 25px; BACKGROUND-COLOR: #e2eff9; 
 }
 .content-bottom {
     position: absolute;
