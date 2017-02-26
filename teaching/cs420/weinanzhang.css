@@ -34,8 +34,6 @@ TABLE {
 .title {
 	FONT-WEIGHT: bold
 }
-.container{position:relative;width:100%;min-height:100%;} 
-.footer{height:50px;position:absolute;bottom:0px;left:0px;} 
 TABLE A {
 	COLOR: black; TEXT-DECORATION: none
 }
